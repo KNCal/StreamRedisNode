@@ -1,0 +1,19 @@
+{
+  "name": "streaming-with-redis-and-nodejs",
+  "version": "1.0.0",
+  "description": "Streaming tweets using Redis Stream and NodeJS, extracted from Kyle Davis's Keynote Demo (Multi Model Redis) - RedisConf 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kim Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "eventemitter2": "^5.0.1",
+    "express": "^4.16.3",
+    "express-ws": "^4.0.0",
+    "redis": "^2.8.0",
+    "twitter": "^1.7.1"
+  }
+}
